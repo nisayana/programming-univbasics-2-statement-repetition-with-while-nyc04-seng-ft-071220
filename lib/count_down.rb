@@ -20,10 +20,10 @@
 #   puts "I am the #{count}, I love to count!"
 #   count = count + 1
 # end
-
+exit_num = 0
 count = 10
 while count < 10 do
-  break if count == 0
+  break if count == exit_num
   puts count
   count = count - 1
 end
